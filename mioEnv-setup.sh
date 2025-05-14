@@ -27,7 +27,7 @@ run_install() {
     case $1 in
         "zsh")
             echo -e "${BLUE}正在安装 ZSH...${NC}"
-            bash ./install_zsh.sh
+            bash ./install_ohmyzsh.sh
             ;;
         "vim")
             echo -e "${BLUE}正在安装 VIM 插件...${NC}"

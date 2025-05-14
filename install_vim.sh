@@ -1,6 +1,9 @@
 #!/bin/bash
+
 echo "This script will install and configure vim and zsh automatic."
 echo "The time this takes is related to the network conditions, please wait patiently."
+apt install vim
+
 if [[ `whoami` == "root" ]];then
     echo -e "\033[31mYou are  running this script with Root\033[0m"
     echo -e "\033[31mGenerally, we do not recommend using root for programming or directly controlling your Linux OS, especially when you are a beginner \033[0m"
