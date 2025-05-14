@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #Install Latest Stable 1Panel Release
 
 osCheck=`uname -a`
@@ -45,7 +45,7 @@ if [ -f ${package_file_name} ];then
         rm -rf 1panel-${VERSION}-linux-${architecture}
         tar zxvf ${package_file_name}
         cd 1panel-${VERSION}-linux-${architecture}
-        /bin/zsh install.sh
+        /bin/bash install.sh
         exit 0
     else
         echo "已存在安装包，但是哈希值不一致，开始重新下载"
@@ -71,4 +71,4 @@ if [ $? != 0 ];then
 fi
 cd 1panel-${VERSION}-linux-${architecture}
 
-/bin/zsh install.sh
+/bin/bash install.sh

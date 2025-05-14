@@ -43,7 +43,7 @@ run_install() {
             ;;
         "1panel")
             echo -e "${BLUE}正在安装 1Panel...${NC}"
-            zsh ./install_1panel.sh
+            sudo zsh ./install_1panel.sh
             ;;
         *)
             echo -e "${RED}未知的安装选项${NC}"
