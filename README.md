@@ -1,4 +1,4 @@
-# Mio 环境安装工具
+# Mio Env
 My one-click development environment installation script.
 
 ## 安装内容
