@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 echo "This script will install and configure vim and zsh automatic."
 echo "The time this takes is related to the network conditions, please wait patiently."

@@ -12,14 +12,14 @@ My one-click development environment installation script.
 
 1. 克隆仓库到本地：
 
-```bash
+```zsh
 git clone https://github.com/yourusername/mioEnv.git
 cd mioEnv
 ```
 
 2. 运行安装脚本：
 
-```bash
+```zsh
 ./mioEnv-setup.sh
 ```
 
@@ -29,7 +29,7 @@ cd mioEnv
 
 运行脚本后会显示交互式菜单：
 
-```bash
+```zsh
 ./mioEnv-setup.sh
 ```
 
@@ -37,7 +37,7 @@ cd mioEnv
 
 也可以通过命令行参数指定要安装的组件：
 
-```bash
+```zsh
 # 标准安装 (ZSH + VIM插件 + Anaconda + 代理配置)
 ./mioEnv-setup.sh standard
 

@@ -3,7 +3,7 @@
 sudo apt install zsh
 chsh -s /bin/zsh
 
-bash ./install_ohmyzsh.sh
+zsh ./install_ohmyzsh.sh
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 

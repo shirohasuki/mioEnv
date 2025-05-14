@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # 颜色设置
 RED='\033[0;31m'
@@ -27,23 +27,23 @@ run_install() {
     case $1 in
         "zsh")
             echo -e "${BLUE}正在安装 ZSH...${NC}"
-            bash ./install_ohmyzsh.sh
+            zsh ./install_ohmyzsh.sh
             ;;
         "vim")
             echo -e "${BLUE}正在安装 VIM 插件...${NC}"
-            bash ./install_vim.sh
+            zsh ./install_vim.sh
             ;;
         "conda")
             echo -e "${BLUE}正在安装 Anaconda...${NC}"
-            bash ./install_conda.sh
+            zsh ./install_conda.sh
             ;;
         "proxy")
             echo -e "${BLUE}正在安装 代理配置...${NC}"
-            bash ./install_proxy.sh
+            zsh ./install_proxy.sh
             ;;
         "1panel")
             echo -e "${BLUE}正在安装 1Panel...${NC}"
-            bash ./install_1panel.sh
+            zsh ./install_1panel.sh
             ;;
         *)
             echo -e "${RED}未知的安装选项${NC}"
