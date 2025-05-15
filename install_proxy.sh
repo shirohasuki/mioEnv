@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 echo "添加代理设置到 ~/.zshrc"
 
